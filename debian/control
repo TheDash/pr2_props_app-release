@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-props-app
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-pr2-position-scripts, ros-hydro-pr2-props, ros-hydro-roslib, ros-hydro-rospy, ros-hydro-std-srvs
+Homepage: http://ros.org/wiki/pr2_props
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-props-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pr2-position-scripts, ros-hydro-pr2-props, ros-hydro-roslib, ros-hydro-rospy, ros-hydro-std-srvs
+Description: Application files for running PR2 props

@@ -1,0 +1,8 @@
+ros-hydro-pr2-props-app (1.0.3-0raring) raring; urgency=high
+
+  * Removed dep on pr2_apps
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Thu, 06 Nov 2014 05:00:00 -0000
+
+
